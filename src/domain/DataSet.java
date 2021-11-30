@@ -19,6 +19,7 @@ public class DataSet {
         this.x = new double[]{0,20,40,60,80,100};
         this.y = new double[]{0.0002,0.0012,0.0060,0.0300,0.0900,0.2700};
         */
+        
         this.n = x.length;
     }
     
