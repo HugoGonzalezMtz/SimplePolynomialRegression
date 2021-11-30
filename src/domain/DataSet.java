@@ -24,12 +24,12 @@ public class DataSet {
     }
     
 
-    public int getN() { return n;   }
+    public int getN() {return n;}
     
-    public double[] getX(){ return this.x;   }
-    public void setX(double[] aux){ this.x = aux;   }
+    public double[] getX(){return this.x;}
+    public void setX(double[] aux){this.x = aux;}
     
-    public double[] getY(){ return this.y;   }
-    public void setY(double[] aux){ this.y = aux;   }
+    public double[] getY(){return this.y;}
+    public void setY(double[] aux){this.y = aux;}
     
 }
