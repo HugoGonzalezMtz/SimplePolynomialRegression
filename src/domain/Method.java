@@ -32,7 +32,7 @@ public class Method {
         cof.setBeta1(DB1 / Ds);
         cof.setBeta2(DB2 / Ds);
         
-        System.out.println("Beta0 = " + cof.getBeta0() + "\nBeta1 = " + cof.getBeta1() + "x"+ "\nBeta2 " + cof.getBeta2() + "x^2"); 
+        System.out.println("Beta0 = " + cof.getBeta0() + "\nBeta1 = " + cof.getBeta1() + "\nBeta2 = " + cof.getBeta2()); 
     }
     
 }
