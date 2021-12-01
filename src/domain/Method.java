@@ -34,12 +34,5 @@ public class Method {
         
         System.out.println("Beta0 = " + cof.getBeta0() + "\nBeta1 = " + cof.getBeta1() + "\nBeta2 = " + cof.getBeta2()); 
     }
-
-    public void Func(float x){
-
-        double resultado = cof.getBeta0() + (cof.getBeta1() * x) + (cof.getBeta2() * Math.pow(x,2));
-        System.out.println("f(" + x + ") = " + resultado);
-
-    }
     
 }
